@@ -1,0 +1,341 @@
+.App {
+  text-align: center;
+  font-family: 'MuseoModerno', cursive;
+  background-image: url("./Components/Photos/wooden_blur.jpg");
+  
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.App-logo {
+  animation: App-logo-spin infinite 20s linear;
+  height: 80px;
+}
+
+.App-header {
+  display:flex;
+  height: 60px;
+  padding-top: 1px;
+  margin-bottom: 40px;
+  color: rgb(255, 255, 255);
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+.MainContent{
+  background: rgba(44, 43, 43, 0.705);
+  min-height: 590px;
+}
+
+.App-title {
+  font-size: 1.2em;
+}
+
+.App-intro {
+  font-size: large;
+}
+
+.Content{
+  display: flex;
+  flex-wrap: wrap;
+  text-align:center;
+  justify-content: center;
+}
+
+.TopRow{
+  display: flex;
+  flex-wrap: wrap;
+  text-align:center;
+  justify-content: center;
+}
+
+.BottomRow{
+  display: flex;
+  flex-wrap: wrap;
+  text-align:left;
+  justify-content: center;
+}
+
+.ContentMovie{
+  text-align:left;
+  color: white;
+}
+
+.MovieCard{
+  padding: 8px 1px;
+  margin-bottom:50px;
+  margin-left:3%;
+  margin-right:3%;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  background-color: bisque;
+  border-radius:5px;
+  width:210px; 
+  text-align: center;
+}
+
+.MovieCard2{
+  padding: 8px 5px;
+  margin-bottom:20px;
+
+  margin-right:3%;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  background-color: bisque;
+  border-radius:5px;
+  max-width:240px;
+  text-align: center;
+}
+
+.MovieTitle{
+  max-width: 300px;
+  margin:  4px 0px;
+  margin-bottom: 0px;
+  padding :0px 8px;
+  text-align: left;
+  font-weight: bold;
+  font-size: 1.0em;
+}
+
+.MovInfo{
+  text-align: left;
+  padding: 8px 1px;
+  margin-bottom:20px;
+  margin-left:27px;
+  margin-right:3%;
+  width: 50%;
+}
+.LeftBottom{
+  text-align: left;
+  padding: 8px 40px;
+  margin-bottom:20px;
+  width: 55%;
+}
+.RightBottom{
+  text-align: left;
+  padding: 8px 1px;
+  margin-bottom:20px;
+  width: 25%;
+}
+.year{
+  font-size: 14px;
+  text-align: left;
+  padding :0px 8px;
+  margin-top:-21px;
+}
+
+.form-control{
+  width:300px;
+  height:35px;
+  border-radius: 25px;
+  border-color: rgb(196, 255, 242);
+  display: inline-block;
+}
+
+.SearchBar{
+  text-align: center;
+}
+
+.btn-primary{
+  height:35px;
+  padding :0px 10px ;
+  margin-top:-2px;
+  border-radius: 25px;
+}
+
+.Poster{
+  height:300px;
+  width:200px;
+}
+
+.BigPoster{
+  height:350px;
+  width:230px;
+}
+
+.Logo{
+  height:50px;
+  margin-top: 8px;
+}
+
+#SiteTitle{
+  padding:18px 2px;
+}
+
+.Menu-style {
+  padding-top: 1px;
+  margin-bottom: 40px;
+  color: rgb(255, 255, 255);
+  background-color: rgba(43, 112, 74, 0.3);
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  overflow: hidden;
+  display: inline-block;
+  width: 100%;
+  position: -webkit-sticky;
+  top: 0;
+}
+
+.Menu-style a {
+  float: left;
+  color: #f2f2f2;
+  text-align: center;
+  padding: 0px 12px;
+  text-decoration: none;
+  font-size: 22px;
+}
+
+.Menu-style a:hover {
+  color: rgb(210, 228, 49);
+}
+
+.menu{
+  width: 25px;
+  height: 3px;
+  background-color: black;
+  margin: 4px 0;
+}
+
+.btn-light{
+  margin:15px 15px;
+  display: none;
+}
+
+.topnav {
+  margin-top:-5px;
+  overflow: hidden;
+  position: relative;
+  text-align: center;
+}
+
+.topnav #myLinks {
+  display: inline-block;
+  width:100%;
+}
+
+.topnav a {
+  color: white;
+  padding: 9px 16px;
+  text-decoration: none;
+  font-size: 17px;
+  display: block;
+}
+
+
+.topnav a:hover {
+  color: rgb(210, 228, 49);
+}
+
+.Footer{
+  text-align: center;
+  color: white;
+  padding: 13px 25px;
+  background-color: rgba(9, 63, 33, 0.904);
+
+  bottom: 0px;
+  width: 100%;
+  display: inline-block;
+}
+
+h9{
+  font-size: 14px;
+}
+
+
+.center {
+  text-align: center;
+  
+}
+
+.pagination {
+  display: inline-block;
+  background-color: rgba(28, 70, 44, 0.822);
+}
+
+.pagination a {
+  color: rgb(243, 240, 240);
+  float: left;
+  padding: 8px 16px;
+  text-decoration: none;
+  border: 1px solid rgb(20, 11, 11);
+}
+
+.pagination a.active {
+  background-color: #4CAF50;
+  color: rgb(31, 29, 29);
+  border: 1px solid #4CAF50;
+}
+
+.pagination a:hover:not(.active) {
+  background-color: #ddd;
+  color: rgb(31, 29, 29);
+}
+
+.pagination a:first-child {
+  border-top-left-radius: 5px;
+  border-bottom-left-radius: 5px;
+}
+
+.pagination a:last-child {
+  border-top-right-radius: 5px;
+  border-bottom-right-radius: 5px;
+}
+
+@keyframes App-logo-spin {
+  from { transform: rotate(0deg); }
+  to { transform: rotate(360deg); }
+}
+
+@media only screen and (max-width: 1025px) {
+  .btn-light{
+    display:block;
+  }
+  .Menu-style a{
+    display:none;
+  }
+  .Menu-style a:hover{
+    display:none;
+  }
+  .LeftBottom{
+    width: 64%;
+  }
+  .RightBottom{
+    width: 25%;
+  }
+}
+
+@media only screen and (max-width: 769px) {
+  .LeftBottom{
+    width: 63%;
+  }
+  .RightBottom{
+    width: 35%;
+    padding-right: 10px;
+  }
+}
+
+@media only screen and (max-width: 427px) {
+  .MovInfo{
+    width: 65%;
+  }
+
+  .LeftBottom{
+    width: 80%;
+    padding: 8px 4px;
+    padding-left: 37px;
+  }
+  .RightBottom{
+    width: 80%;
+    padding-left: 37px;
+  }
+}
+
+@media only screen and (max-width: 327px) {
+  .MovInfo{
+    width: 75%;
+  }
+
+  .LeftBottom{
+    padding-left: 20px;
+  }
+  .RightBottom{
+    padding-left: 20px;
+  }
+}
